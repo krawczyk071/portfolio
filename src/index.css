@@ -343,18 +343,27 @@ img {
   display: flex;
   align-items: center;
   /* justify-content: space-between; */
-  height: 70px;
+  height: 80px;
   padding: 0 2rem;
 }
 .navbar__logo {
   flex: 1;
-  background: var(--bg-light);
-  font-size: 2rem;
-}
-.navbar__logo span {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   font-family: "Montserrat", cursive;
   font-size: 3rem;
   font-weight: bold;
+}
+.navbar__logo span {
+  font-family: "Montserrat", cursive;
+  font-size: 0.6rem;
+  font-weight: bold;
+  display: block;
+  text-align: center;
+  margin-top: -10px;
+  margin-left: -3rem;
+  letter-spacing: 1.4rem;
 }
 .navbar__list {
   list-style-type: none;
@@ -376,13 +385,19 @@ img {
 .projects {
   display: flex;
   max-width: var(--width-lg);
+  flex-direction: column;
 }
-.projects__img {
-  flex: 1 1 50%;
-  /* width: 66%; */
+.cardproject {
+  display: flex;
+  margin: 1.5rem 0;
 }
-.projects__txt {
+.cardproject__img {
   flex: 1 1 50%;
+  padding: 1rem;
+}
+.cardproject__txt {
+  flex: 1 1 50%;
+  padding: 1rem;
 }
 
 .mybg {
@@ -409,8 +424,19 @@ img {
   background: var(--bg-secondary);
   padding: 0.1rem 0.3rem;
   border-radius: 5px;
+  margin: 0 0.2rem;
 }
-.main h1 {
+h1 {
+  font-weight: 700;
+  font-size: 1.8rem;
+  margin-bottom: 1.2rem;
+  text-decoration-line: underline;
+  text-decoration-thickness: 4px;
+  text-decoration-color: var(--accent);
+  text-transform: uppercase;
+  text-align: center;
+}
+h2 {
   font-weight: 700;
   font-size: 1.8rem;
   margin-bottom: 1.2rem;
@@ -418,10 +444,16 @@ img {
   text-decoration-thickness: 4px;
   text-decoration-color: var(--accent);
 }
-.main p {
+p {
   margin-bottom: 1rem;
 }
-.main .btn2 {
+p.quote {
+  width: 80%;
+  text-align: center;
+  align-self: center;
+  margin-bottom: 2rem;
+}
+.link__btn {
   background: #facf0f;
   color: #333;
   text-transform: uppercase;
@@ -431,9 +463,13 @@ img {
   border-radius: 5px;
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
   transition: transform 0.3s;
-  padding: 1.5rem 5rem;
-  font-size: 1.6rem;
+  padding: 1rem 3rem;
+  font-size: 1.2rem;
   border: 0;
+  align-self: center;
+}
+.link {
+  align-self: center;
 }
 .detail {
   max-width: var(--width-lg);
@@ -559,4 +595,36 @@ img {
   display: flex;
   justify-content: space-between;
   padding: 3rem;
+}
+.about {
+  display: flex;
+  flex-direction: column;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.form__btn {
+  align-self: center;
+  margin: 1rem;
+}
+.about__skills {
+  margin-bottom: 1rem;
+}
+.about__skills__logos {
+  align-self: stretch;
+}
+.test {
+}
+
+.modsvg {
+  width: 150px;
+  /* filter: saturate(0%); */
+  filter: grayscale(100%) brightness(70%);
+  /* filter: invert(100%); */
+  /* filter: blur(3px); */
 }

@@ -3,16 +3,20 @@ import { Link } from "react-router-dom";
 
 const CardProject = ({ project }) => {
   return (
-    <div className="projects main">
-      <div className="projects__img">
+    <div className="cardproject" id={project.id}>
+      <div className="cardproject__img">
         <img src={project.img_md} alt="" />
       </div>
-      <div className="projects__txt">
-        <h1>{project.title}</h1>
+      <div className="cardproject__txt">
+        <h2>{project.title}</h2>
         <p>{project.short}</p>
-        <button className="btn2">Live</button>
-        {/* {project.live} */}
-        <Link to={`project/${project.id}`}>more</Link>
+
+        <Link to={project.live} className="link">
+          <div className="link__btn">Live</div>
+        </Link>
+        <Link to={`project/${project.id}`} className="link">
+          <div className="link__btn">More</div>
+        </Link>
       </div>
     </div>
   );

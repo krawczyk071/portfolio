@@ -5,7 +5,7 @@ const Footer = () => {
     <div className="footer">
       <div className="footer__main main">
         <div className="footer__main__left">
-          <h1>Jan Nowak</h1>
+          <h2>Jan Nowak</h2>
           <p>
             A Frontend focused Web Developer building the Frontend of Websites
             and Web Applications that leads to the success of the overall
