@@ -44,20 +44,76 @@ export const icons = [
     icon: <i className="fa-brands fa-html5"></i>,
   },
   {
+    name: "Firebase",
+    svg: "./techsvg/firebase-icon.svg",
+    title: "",
+    text: "",
+  },
+  {
     name: "Coursera",
     svg: "./techsvg/coursera-ar21.svg",
     title: "",
     text: "",
   },
   {
-    name: "Firebase",
-    svg: "./techsvg/firebase-icon.svg",
-    title: "",
-    text: "",
+    name: "Google",
+    svg: "./techsvg/google_i.svg",
+    title: "Google for Coursera",
+    text: "Google Data Analytics Specialization",
+  },
+  {
+    name: "IBM",
+    svg: "./techsvg/ibm_i.svg",
+    title: "IBM for Coursera",
+    text: "IBM Data Analyst Specialization",
+  },
+  {
+    name: "DataCamp",
+    svg: "./techsvg/datacamp_i.svg",
+    title: "DataCamp",
+    text: "Data Scientist with Python Track",
+  },
+  {
+    name: "The Odin Project",
+    svg: "./techsvg/odin_i.svg",
+    title: "The Odin Project",
+    text: "Full Stack JavaScript",
+  },
+  {
+    name: "Harvard",
+    svg: "./techsvg/cs50_i.svg",
+    title: "Harvard edX",
+    text: "CS50 Introduction to Computer Science",
+  },
+  {
+    name: "Codecademy",
+    svg: "./techsvg/codecademy-ar21.svg",
+    title: "Codecademy",
+    text: "Learn Advanced React",
+  },
+  {
+    name: "free-code-camp",
+    svg: "./techsvg/fcc_i.svg",
+    title: "freeCodeCamp",
+    text: "Front End Development Libraries",
+  },
+  {
+    name: "Scrimba",
+    svg: "./techsvg/fcc_i.svg",
+    title: "freeCodeCamp",
+    text: "Front End Development Libraries",
   },
 ];
 
-export const eduLogos = ["Coursera"];
+export const eduLogos = [
+  "Google",
+  "IBM",
+  "DataCamp",
+  "The Odin Project",
+  "Harvard",
+  "Codecademy",
+  "free-code-camp",
+];
 
 export const techLogosALL = [];
 export const skills = [

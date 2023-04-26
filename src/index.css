@@ -640,3 +640,39 @@ p.quote {
 .contact_alert__suc {
   color: var(--success);
 }
+.educard {
+  /* width: 200px; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin: 0 2rem;
+}
+.educard__logo {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.educard__svg {
+  width: 100%;
+  filter: grayscale(100%) brightness(70%);
+}
+.educard__title {
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+.educard__text {
+  width: 150px;
+  /* display: block; */
+  font-size: 0.6rem;
+  text-align: center;
+}
+
+.edus {
+  /* display: flex;
+  width: 100%; */
+  color: var(--bg-dark);
+  opacity: 0.7;
+}
