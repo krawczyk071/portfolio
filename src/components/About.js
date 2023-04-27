@@ -1,12 +1,14 @@
 import React from "react";
 import { HashLink } from "react-router-hash-link";
-import { eduLogos, icons, skills } from "../utils/data";
+import { eduLogos, icons, skills, skillsSM } from "../utils/data";
 import LogoBanner from "./LogoBanner";
 import EduBanner from "./EduBanner";
 
 const About = () => {
   const edus = eduLogos.map((e) => icons.find((i) => i.name === e));
-  console.log(edus);
+  const skil = skills.map((s) => icons.find((i) => i.name === s));
+  const allSkills = [...skills, ...skillsSM];
+  // console.log(skil);
   return (
     <>
       <div id="about" className="about main">
@@ -15,6 +17,18 @@ const About = () => {
           Here you will find more information about me, what I do, and my
           current skills mostly in terms of programming and technology
         </p>
+
+        <h2>My Skills</h2>
+        <div className="about__skills__logos">
+          <LogoBanner logos={skil} />
+        </div>
+
+        <div className="about__skills">
+          {allSkills.map((s) => (
+            <span className="badge">{s}</span>
+          ))}
+        </div>
+
         <h2>Get to know me!</h2>
         <p>
           I'm a Frontend Web Developer building the Front-end of Websites and
@@ -26,23 +40,15 @@ const About = () => {
           content related to Web Development and Programming I'm open to Job
           opportunities where I can contribute, learn and grow. If you have a
           good opportunity that matches my skills and experience then don't
-          hesitate to contact me.
+          hesitate to contact me.(110)
         </p>
-        <HashLink to="#contact" className="link">
+        <HashLink smooth to="#contact" className="link about__link">
           <div className="link__btn">Contact</div>
         </HashLink>
-        <h2>My Skills</h2>
-        <div className="about__skills">
-          {skills.map((s) => (
-            <span className="badge">{s}</span>
-          ))}
-        </div>
+
         <h2>Completed Trainings</h2>
-        <div className="about__skills__logos">
-          <LogoBanner logos={icons} />
-        </div>
+        <EduBanner logos={edus} />
       </div>
-      <EduBanner logos={edus} />
     </>
   );
 };

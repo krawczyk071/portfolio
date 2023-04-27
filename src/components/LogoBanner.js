@@ -1,15 +1,22 @@
 import React from "react";
+import Carousel from "nuka-carousel";
+
+const settings = {
+  autoplay: true,
+  autoplayInterval: 8000,
+  dragging: false,
+  slidesToShow: 4,
+  // slidesToScroll: 4,
+  speed: 7000,
+  swiping: false,
+  withoutControls: true,
+  wrapAround: true,
+};
 
 const LogoBanner = ({ logos }) => {
   return (
-    <div className="logos main">
-      <div className="logos__cnt">
-        {logos.map((l) => l.icon)}
-        {/* <i className="fa-brands fa-github"></i>
-        <i className="fa-brands fa-linkedin"></i>
-        <i className="fa-brands fa-reddit"></i>
-        <i className="fa-brands fa-html5"></i> */}
-      </div>
+    <div className="logos">
+      <Carousel {...settings}>{logos.map((l) => l.icon)}</Carousel>
     </div>
   );
 };

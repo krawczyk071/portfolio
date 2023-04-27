@@ -12,7 +12,47 @@ export const projects = [
       "https://d33wubrfki0l68.cloudfront.net/19c708670a1f21231c1e2efa6ba38dbf52b15343/3237e/assets/jpeg/dopefolio.jpeg",
     img_md:
       "https://d33wubrfki0l68.cloudfront.net/19c708670a1f21231c1e2efa6ba38dbf52b15343/3237e/assets/jpeg/dopefolio.jpeg",
-    tech: ["git", "js"],
+    tech: [
+      "React",
+      "git",
+      "github",
+      "SASS",
+      "npm",
+      "tailwind",
+      "netlify",
+      "Firebase",
+      "api",
+    ],
+  },
+  {
+    id: "rental",
+    title: "BikeRental",
+    short:
+      "Dopefolio is a successful Open-Source project that I created whichhave been featured on some of the biggest tech sites like CSS-Tricks, Hostinger, etc & used by thousands of developers globally",
+    long: "Dopefolio is an Open-Source project which is a simple and clean multi-page portfolio website template for developers. I created this project for developers to quickly build a good-looking and fast-performing multi-page portfolio without having to code their portfolio from scratch. Since the launch of this project, It has received more than 2k stars on Github and it has also got featured on hundreds of sites and CSS-tricks.com has also featured this template as the hottest frontend tool of 2021 in one of their articles which you can find here Dopefolio is now being used by thousands of developers globally and it has helped many people in landing jobs & opportunities which makes me happy that my creation is helping other people in building their careers. It has many other features like Dopefolio's repo contains a playground link which people can use to test the template with different theme colours to find their own preferred primary colour for the template. Feel free to check out the Project by visiting the Project Link.",
+    live: "url",
+    git: "url",
+    img_cover: "",
+    img_xl:
+      "https://d33wubrfki0l68.cloudfront.net/19c708670a1f21231c1e2efa6ba38dbf52b15343/3237e/assets/jpeg/dopefolio.jpeg",
+    img_md:
+      "https://d33wubrfki0l68.cloudfront.net/19c708670a1f21231c1e2efa6ba38dbf52b15343/3237e/assets/jpeg/dopefolio.jpeg",
+    tech: ["React", "HTML", "JavaScript", "CSS", "git"],
+  },
+  {
+    id: "shop",
+    title: "BigHead",
+    short:
+      "Dopefolio is a successful Open-Source project that I created whichhave been featured on some of the biggest tech sites like CSS-Tricks, Hostinger, etc & used by thousands of developers globally",
+    long: "Dopefolio is an Open-Source project which is a simple and clean multi-page portfolio website template for developers. I created this project for developers to quickly build a good-looking and fast-performing multi-page portfolio without having to code their portfolio from scratch. Since the launch of this project, It has received more than 2k stars on Github and it has also got featured on hundreds of sites and CSS-tricks.com has also featured this template as the hottest frontend tool of 2021 in one of their articles which you can find here Dopefolio is now being used by thousands of developers globally and it has helped many people in landing jobs & opportunities which makes me happy that my creation is helping other people in building their careers. It has many other features like Dopefolio's repo contains a playground link which people can use to test the template with different theme colours to find their own preferred primary colour for the template. Feel free to check out the Project by visiting the Project Link.",
+    live: "url",
+    git: "url",
+    img_cover: "",
+    img_xl:
+      "https://d33wubrfki0l68.cloudfront.net/19c708670a1f21231c1e2efa6ba38dbf52b15343/3237e/assets/jpeg/dopefolio.jpeg",
+    img_md:
+      "https://d33wubrfki0l68.cloudfront.net/19c708670a1f21231c1e2efa6ba38dbf52b15343/3237e/assets/jpeg/dopefolio.jpeg",
+    tech: ["React", "HTML", "JavaScript", "CSS", "git", "router"],
   },
   {
     id: "movies",
@@ -27,7 +67,22 @@ export const projects = [
       "https://d33wubrfki0l68.cloudfront.net/19c708670a1f21231c1e2efa6ba38dbf52b15343/3237e/assets/jpeg/dopefolio.jpeg",
     img_md:
       "https://d33wubrfki0l68.cloudfront.net/19c708670a1f21231c1e2efa6ba38dbf52b15343/3237e/assets/jpeg/dopefolio.jpeg",
-    tech: ["git", "js"],
+    tech: ["React", "HTML", "JavaScript", "CSS", "git"],
+  },
+  {
+    id: "tattoo",
+    title: "Tattoo finder",
+    short:
+      "30 Dopefolio is a successful Open-Source project that I created whichhave been featured on some of the biggest tech sites like CSS-Tricks, Hostinger, etc & used by thousands of developers globally",
+    long: "170 Dopefolio is an Open-Source project which is a simple and clean multi-page portfolio website template for developers. I created this project for developers to quickly build a good-looking and fast-performing multi-page portfolio without having to code their portfolio from scratch. Since the launch of this project, It has received more than 2k stars on Github and it has also got featured on hundreds of sites and CSS-tricks.com has also featured this template as the hottest frontend tool of 2021 in one of their articles which you can find here Dopefolio is now being used by thousands of developers globally and it has helped many people in landing jobs & opportunities which makes me happy that my creation is helping other people in building their careers. It has many other features like Dopefolio's repo contains a playground link which people can use to test the template with different theme colours to find their own preferred primary colour for the template. Feel free to check out the Project by visiting the Project Link.",
+    live: "url",
+    git: "url",
+    img_cover: "",
+    img_xl:
+      "https://d33wubrfki0l68.cloudfront.net/19c708670a1f21231c1e2efa6ba38dbf52b15343/3237e/assets/jpeg/dopefolio.jpeg",
+    img_md:
+      "https://d33wubrfki0l68.cloudfront.net/19c708670a1f21231c1e2efa6ba38dbf52b15343/3237e/assets/jpeg/dopefolio.jpeg",
+    tech: ["React", "HTML", "JavaScript", "CSS", "git", "Redux", "styled"],
   },
 ];
 export const icons = [
@@ -40,12 +95,25 @@ export const icons = [
     icon: <i className="fa-brands fa-linkedin"></i>,
   },
   {
-    name: "html",
+    name: "HTML",
     icon: <i className="fa-brands fa-html5"></i>,
+  },
+  {
+    name: "git",
+    icon: <i class="fa-brands fa-git-alt"></i>,
+  },
+  {
+    name: "JavaScript",
+    icon: <i class="fa-brands fa-js"></i>,
   },
   {
     name: "Firebase",
     svg: "./techsvg/firebase-icon.svg",
+    svgicon: (
+      <div className="svgicon">
+        <img src="./techsvg/firebase-icon.svg" alt="icon" />
+      </div>
+    ),
     title: "",
     text: "",
   },
@@ -69,7 +137,7 @@ export const icons = [
   },
   {
     name: "DataCamp",
-    svg: "./techsvg/datacamp_i.svg",
+    svg: "./techsvg/datacampnew_i.svg",
     title: "DataCamp",
     text: "Data Scientist with Python Track",
   },
@@ -98,32 +166,117 @@ export const icons = [
     text: "Front End Development Libraries",
   },
   {
-    name: "Scrimba",
-    svg: "./techsvg/fcc_i.svg",
-    title: "freeCodeCamp",
-    text: "Front End Development Libraries",
+    name: "scrimba",
+    svg: "./techsvg/scrimba_i.svg",
+    title: "scrimba",
+    text: "Advanced React",
+  },
+  {
+    name: "CSS",
+    icon: <i class="fa-brands fa-css3-alt"></i>,
+  },
+  {
+    name: "React",
+    icon: <i class="fa-brands fa-react"></i>,
+  },
+  {
+    name: "SASS",
+    icon: <i class="fa-brands fa-sass"></i>,
+  },
+  {
+    name: "npm",
+    icon: <i class="fa-brands fa-npm"></i>,
+  },
+  {
+    name: "tailwind",
+    svgicon: (
+      <div className="svgicon">
+        <img src="./techsvg/tailwindcss-icon.svg" alt="icon" />
+      </div>
+    ),
+    svg: "./techsvg/tailwindcss-icon.svg",
+  },
+  {
+    name: "netlify",
+    svgicon: (
+      <div className="svgicon">
+        <img src="./techsvg/netlify-icon.svg" alt="icon" />
+      </div>
+    ),
+    svg: "./techsvg/netlify-icon.svg",
+  },
+  {
+    name: "Redux",
+    svgicon: (
+      <div className="svgicon">
+        <img src="./techsvg/redux.svg" alt="icon" />
+      </div>
+    ),
+  },
+  {
+    name: "router",
+    svgicon: (
+      <div className="svgicon">
+        <img src="./techsvg/router.svg" alt="icon" />
+      </div>
+    ),
+  },
+  {
+    name: "styled",
+    svgicon: (
+      <div className="svgicon">
+        <img src="./techsvg/styled-alt_i.svg" alt="icon" />
+      </div>
+    ),
+  },
+  {
+    name: "api",
+    svgicon: (
+      <div className="svgicon">
+        <img src="./techsvg/api.svg" alt="icon" />
+      </div>
+    ),
   },
 ];
 
 export const eduLogos = [
-  "Google",
-  "IBM",
   "DataCamp",
   "The Odin Project",
+  "IBM",
   "Harvard",
+  "Google",
   "Codecademy",
   "free-code-camp",
+  "scrimba",
 ];
 
-export const techLogosALL = [];
-export const skills = [
+export const techLogosALL = [
   "JavaScript",
   "HTML",
   "CSS",
   "React",
-  "GIT",
-  "Github",
+  "git",
+  "github",
+
   "SASS",
+  "npm",
+  "tailwind",
+  "netlify",
+  "Firebase",
+  "Redux",
+  "ReactRouter",
+  "restAPI",
+];
+export const skills = ["JavaScript", "HTML", "CSS", "React", "git", "github"];
+export const skillsSM = [
+  "Redux",
+  "Firebase",
+  "ReactRouter",
+  "npm",
+  "SASS",
+  "tailwind",
+  "netlify",
+  "restAPI",
   "Python",
   "SQL",
 ];
@@ -147,17 +300,13 @@ export const content = { about: {} };
 // firebase
 
 {
-  /* <i class="fa-brands fa-css3-alt"></i>
+  /* 
+  
 <i class="fa-brands fa-js"></i>
-<i class="fa-brands fa-sass"></i>
 <i class="fa-brands fa-git-alt"></i> 
-<i class="fa-brands fa-react"></i>
-<i class="fa-brands fa-npm"></i>
 
 <i class="fa-brands fa-figma"></i>
 <i class="fa-brands fa-stripe"></i>
-<i class="fa-brands fa-docker"></i>
-
 <i class="fa-brands fa-docker"></i>
 <i class="fa-brands fa-python"></i>
 <i class="fa-brands fa-node"></i>

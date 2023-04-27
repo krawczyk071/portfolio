@@ -1,25 +1,11 @@
 import React from "react";
-import Carousel from "nuka-carousel";
 
 const EduBanner = ({ logos }) => {
-  const settings = {
-    autoplay: true,
-    autoplayInterval: 8000,
-    dragging: false,
-    // slidesToScroll: 3,
-    slidesToShow: 4,
-    speed: 7000,
-    swiping: false,
-    withoutControls: true,
-    wrapAround: true,
-  };
   return (
-    <div className="edus main">
-      <Carousel {...settings}>
-        {logos.map((l) => (
-          <EduCard item={l} />
-        ))}
-      </Carousel>
+    <div className="edus">
+      {logos.map((l) => (
+        <EduCard item={l} />
+      ))}
     </div>
   );
 };

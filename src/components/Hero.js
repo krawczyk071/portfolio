@@ -1,6 +1,5 @@
 import React from "react";
-import LogoBanner from "./LogoBanner";
-import { icons } from "../utils/data";
+import { HashLink } from "react-router-hash-link";
 
 const Hero = () => {
   return (
@@ -8,22 +7,21 @@ const Hero = () => {
       <div className="hero main">
         <h1>Discover my Work</h1>
         <div className="hero__cnt">
-          <div className="hero__cnt__img card1">
+          <HashLink smooth to="#rental" className="hero__cnt__img card1">
             <img src="./img/smbikes.png" alt="" />
-          </div>
-          <div className="hero__cnt__img card2">
+          </HashLink>
+          <HashLink smooth to="#shop" className="hero__cnt__img card2">
             <img src="./img/smhats.png" alt="" />
-          </div>
-          <div className="hero__cnt__img card3">
+          </HashLink>
+          <HashLink smooth to="#movies" className="hero__cnt__img card3">
             <img src="./img/smmovies.png" alt="" />
-          </div>
-          <div className="hero__cnt__img card4">
+          </HashLink>
+          <HashLink smooth to="#tattoo" className="hero__cnt__img card4">
             <img src="./img/smtattoo.png" alt="" />
-          </div>
+          </HashLink>
           <div className="hero__cnt__img card5"></div>
         </div>
       </div>
-      <LogoBanner logos={icons} />
     </div>
   );
 };

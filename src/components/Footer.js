@@ -5,7 +5,7 @@ const Footer = () => {
     <div className="footer">
       <div className="footer__main main">
         <div className="footer__main__left">
-          <h2>Jan Nowak</h2>
+          <h2>Szymon Krawczyk</h2>
           <p>
             A Frontend focused Web Developer building the Frontend of Websites
             and Web Applications that leads to the success of the overall
@@ -15,13 +15,10 @@ const Footer = () => {
         <div className="footer__main__socials">
           <i className="fa-brands fa-github"></i>
           <i className="fa-brands fa-linkedin"></i>
-          <i className="fa-brands fa-reddit"></i>
-          <i className="fa-brands fa-html5"></i>
-          <i className="fa-solid fa-toggle-off"></i>
         </div>
       </div>
       <div className="footer__last">
-        © Copyright 2023. Made by Jan Nowak | Designed & built by Jan Chegham
+        Designed & built by Szymon Krawczyk © Copyright 2023.
       </div>
     </div>
   );

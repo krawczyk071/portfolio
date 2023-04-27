@@ -4,16 +4,19 @@ import { projects } from "../utils/data";
 
 const Projects = () => {
   return (
-    <div id="projects" className="projects main">
-      <h1>projects</h1>
-      <p className="quote">
-        Here you will find some of the personal and clients projects that I
-        created with each project containing its own case study
-      </p>
-      {projects.map((project) => (
-        <CardProject project={project} />
-      ))}
-    </div>
+    <>
+      <div class="divider"></div>
+      <div id="projects" className="projects main">
+        <h1>projects</h1>
+        <p className="quote">
+          Here you will find some of the personal and clients projects that I
+          created with each project containing its own case study
+        </p>
+        {projects.map((project) => (
+          <CardProject project={project} />
+        ))}
+      </div>
+    </>
   );
 };
 

@@ -81,7 +81,7 @@ const Contact = () => {
           <label for="message">Message</label>
           <textarea
             cols="30"
-            rows="10"
+            rows="5"
             placeholder="Enter Your Message"
             name="message"
             id="message"
