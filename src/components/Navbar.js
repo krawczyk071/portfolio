@@ -1,5 +1,6 @@
 import React from "react";
 import { NavHashLink } from "react-router-hash-link";
+import Toggler from "./Toggler";
 
 const Navbar = () => {
   return (
@@ -34,7 +35,7 @@ const Navbar = () => {
           </li>
         </ul>
         <div className="navbar__lang">
-          <i className="fa-solid fa-earth-americas"></i> PL
+          <Toggler />
         </div>
       </nav>
     </div>

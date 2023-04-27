@@ -730,3 +730,45 @@ p.quote {
 .slider-list {
   text-align: center !important;
 }
+
+.togg1 {
+  width: 80px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: var(--accent);
+  outline: 0;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  position: relative;
+}
+
+.togg {
+  transform: scale(0.8);
+}
+.togg2 {
+  position: absolute;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  transform: scale(0.7);
+  background-color: white;
+  /* border: 2px solid black; */
+  transition: all 0.2s ease-in-out;
+  /* box-shadow: 0 0.1em rgba(0, 0, 0, 0.5); */
+  /* z-index: 3; */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  font-weight: bold;
+  padding: 0;
+}
+
+.togg1.active {
+  background-color: var(--text1);
+}
+.togg2.active {
+  left: 40px;
+}
