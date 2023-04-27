@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { icons } from "../utils/data";
+import IconSvg from "./IconSvg";
 
 const CardProject = ({ project }) => {
   return (
@@ -12,10 +13,17 @@ const CardProject = ({ project }) => {
         <h2 className="cardproject__title">{project.title}</h2>
         <div className="cardproject__tech">
           {project.tech.map(
-            (t) =>
-              icons.find((i) => i.name === t)?.icon ||
-              icons.find((i) => i.name === t)?.svgicon ||
-              "X"
+            (t) => (
+              <IconSvg
+                url={icons.find((i) => i.name === t).isvg}
+                alt={t}
+                cls="svgiconSm"
+              />
+            )
+
+            // icons.find((i) => i.name === t)?.icon ||
+            // icons.find((i) => i.name === t)?.svgicon ||
+            // "X"
           )}
         </div>
         <p>{project.short}</p>

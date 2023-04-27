@@ -1,5 +1,6 @@
 import React from "react";
 import Carousel from "nuka-carousel";
+import IconSvg from "./IconSvg";
 
 const settings = {
   autoplay: true,
@@ -11,12 +12,18 @@ const settings = {
   swiping: false,
   withoutControls: true,
   wrapAround: true,
+  // cellAlign: "center",
 };
 
 const LogoBanner = ({ logos }) => {
   return (
     <div className="logos">
-      <Carousel {...settings}>{logos.map((l) => l.icon)}</Carousel>
+      {/* <Carousel {...settings}>{logos.map((l) => l.icon)}</Carousel> */}
+      <Carousel {...settings}>
+        {logos.map((l) => (
+          <IconSvg url={l.isvg} alt={l.name} cls="svgiconLg" />
+        ))}
+      </Carousel>
     </div>
   );
 };

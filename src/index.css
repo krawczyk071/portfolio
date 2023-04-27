@@ -370,9 +370,9 @@ img {
 .navbar__logo::before {
   content: "";
   position: absolute;
-  left: 20px;
+  left: 5px;
   bottom: 19px;
-  width: 92%;
+  width: 97%;
   height: 13px;
   transform: skew(-20deg);
   background: var(--accent);
@@ -719,16 +719,34 @@ p.quote {
   width: 40px;
   filter: grayscale(100%) brightness(30%);
 }
-.logos {
-  /* display: flex; */
+.svgiconSm {
+  width: 40px;
+  filter: grayscale(100%) brightness(30%);
+}
+.svgwrapper {
   width: 100%;
-  /* justify-content: space-between; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.svgiconLg {
+  width: 100px;
+  /* filter: grayscale(100%) brightness(30%); */
+  /* 
+  color: var(--bg-dark);
+  opacity: 0.7; */
+}
+.logos {
+  width: 100%;
   font-size: 5rem;
   color: var(--bg-dark);
-  opacity: 0.7;
+  opacity: 0.5;
+  margin-bottom: 1rem;
 }
 .slider-list {
   text-align: center !important;
+  align-items: center;
+  align-content: center;
 }
 
 .togg1 {

@@ -6,8 +6,8 @@ import EduBanner from "./EduBanner";
 
 const About = () => {
   const edus = eduLogos.map((e) => icons.find((i) => i.name === e));
-  const skil = skills.map((s) => icons.find((i) => i.name === s));
   const allSkills = [...skills, ...skillsSM];
+  const skil = allSkills.map((s) => icons.find((i) => i.name === s));
   // console.log(skil);
   return (
     <>
