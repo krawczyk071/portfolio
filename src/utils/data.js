@@ -105,7 +105,7 @@ export const projects = [
       "https://d33wubrfki0l68.cloudfront.net/19c708670a1f21231c1e2efa6ba38dbf52b15343/3237e/assets/jpeg/dopefolio.jpeg",
     img_md:
       "https://d33wubrfki0l68.cloudfront.net/19c708670a1f21231c1e2efa6ba38dbf52b15343/3237e/assets/jpeg/dopefolio.jpeg",
-    tech: ["mongoDB", "express", "React", "NextJS", "Docker", "AWS"],
+    tech: ["mongoDB", "express", "React", "nodeJS", "Docker", "AWS"],
   },
 ];
 
@@ -331,6 +331,26 @@ export const icons = [
     name: "SQL",
     isvg: "./techsvg/xsql.svg",
   },
+  {
+    name: "GraphQl",
+    isvg: "./techsvg/xgraphql.svg",
+  },
+  {
+    name: "Gatsby",
+    isvg: "./techsvg/xgatsby.svg",
+  },
+  {
+    name: "Flask",
+    isvg: "./techsvg/xflask.svg",
+  },
+  {
+    name: "Django",
+    isvg: "./techsvg/xdjango.svg",
+  },
+  {
+    name: "TypeScript",
+    isvg: "./techsvg/xtypescript.svg",
+  },
 ];
 
 export const eduLogos = [
@@ -363,11 +383,18 @@ export const techLogosALL = [
   "restAPI",
   "nodeJS",
 ];
-export const skills = ["JavaScript", "HTML", "CSS", "React", "git", "github"];
-export const skillsSM = [
+export const skills = [
+  "React",
+  "JavaScript",
+  "CSS",
+  "git",
+  "HTML",
+  "github",
   "Redux",
   "Firebase",
   "ReactRouter",
+];
+export const skillsSM = [
   "npm",
   "SASS",
   "tailwind",

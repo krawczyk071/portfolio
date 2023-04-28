@@ -598,6 +598,13 @@ p.quote {
   border-radius: var(--radius1);
   overflow: hidden;
 }
+.hero__cnt__img {
+  transition: all 0.2s ease-in-out;
+}
+.hero__cnt__img:hover {
+  translate: 0 -10px;
+}
+
 .card1 {
   transform: rotateZ(-5deg) scale(0.9) translateX(40px) translateY(20px);
   z-index: 1;
@@ -611,6 +618,7 @@ p.quote {
   /* transform: perspective(800px) rotateX(-10deg) scale(1.2) translateY(-10px); */
   z-index: 3;
 }
+
 .card4 {
   transform: rotateZ(2deg);
   z-index: 2;

@@ -7,7 +7,7 @@ import EduBanner from "./EduBanner";
 const About = () => {
   const edus = eduLogos.map((e) => icons.find((i) => i.name === e));
   const allSkills = [...skills, ...skillsSM];
-  const skil = allSkills.map((s) => icons.find((i) => i.name === s));
+  const topSkills = skills.map((s) => icons.find((i) => i.name === s));
   // console.log(skil);
   return (
     <>
@@ -20,7 +20,7 @@ const About = () => {
 
         <h2>My Skills</h2>
         <div className="about__skills__logos">
-          <LogoBanner logos={skil} />
+          <LogoBanner logos={topSkills} />
         </div>
 
         <div className="about__skills">
