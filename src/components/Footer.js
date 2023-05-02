@@ -13,8 +13,20 @@ const Footer = () => {
           </p>
         </div>
         <div className="footer__main__socials">
-          <i className="fa-brands fa-github"></i>
-          <i className="fa-brands fa-linkedin"></i>
+          <a
+            href="https://github.com/krawczyk071"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i className="fa-brands fa-github"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/szymon-krawczyk-6890a6184/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i className="fa-brands fa-linkedin"></i>
+          </a>
         </div>
       </div>
       <div className="footer__last">

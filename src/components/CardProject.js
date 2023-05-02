@@ -28,7 +28,12 @@ const CardProject = ({ project }) => {
         </div>
         <p>{project.short}</p>
         <div className="cardproject__btns">
-          <Link to={project.live} className="link">
+          <Link
+            to={project.live}
+            className="link"
+            target="_blank"
+            rel="noreferrer"
+          >
             <div className="link__btn link__btn--sm">Live</div>
           </Link>
           <Link to={`project/${project.id}`} className="link">

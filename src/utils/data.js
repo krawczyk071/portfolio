@@ -30,13 +30,11 @@ export const projects = [
     short:
       "Dopefolio is a successful Open-Source project that I created whichhave been featured on some of the biggest tech sites like CSS-Tricks, Hostinger, etc & used by thousands of developers globally",
     long: "Dopefolio is an Open-Source project which is a simple and clean multi-page portfolio website template for developers. I created this project for developers to quickly build a good-looking and fast-performing multi-page portfolio without having to code their portfolio from scratch. Since the launch of this project, It has received more than 2k stars on Github and it has also got featured on hundreds of sites and CSS-tricks.com has also featured this template as the hottest frontend tool of 2021 in one of their articles which you can find here Dopefolio is now being used by thousands of developers globally and it has helped many people in landing jobs & opportunities which makes me happy that my creation is helping other people in building their careers. It has many other features like Dopefolio's repo contains a playground link which people can use to test the template with different theme colours to find their own preferred primary colour for the template. Feel free to check out the Project by visiting the Project Link.",
-    live: "url",
-    git: "url",
-    img_cover: "",
-    img_xl:
-      "https://d33wubrfki0l68.cloudfront.net/19c708670a1f21231c1e2efa6ba38dbf52b15343/3237e/assets/jpeg/dopefolio.jpeg",
-    img_md:
-      "https://d33wubrfki0l68.cloudfront.net/19c708670a1f21231c1e2efa6ba38dbf52b15343/3237e/assets/jpeg/dopefolio.jpeg",
+    live: "https://bikerentalproject.netlify.app/",
+    git: "https://github.com/krawczyk071/bike-rental",
+    img_cover: "img/xbikes.png",
+    img_xl: "img/mkbikes4.png",
+    img_md: "img/mkbikes4.png",
     tech: ["React", "HTML", "JavaScript", "CSS", "git"],
   },
   {
@@ -45,14 +43,21 @@ export const projects = [
     short:
       "Dopefolio is a successful Open-Source project that I created whichhave been featured on some of the biggest tech sites like CSS-Tricks, Hostinger, etc & used by thousands of developers globally",
     long: "Dopefolio is an Open-Source project which is a simple and clean multi-page portfolio website template for developers. I created this project for developers to quickly build a good-looking and fast-performing multi-page portfolio without having to code their portfolio from scratch. Since the launch of this project, It has received more than 2k stars on Github and it has also got featured on hundreds of sites and CSS-tricks.com has also featured this template as the hottest frontend tool of 2021 in one of their articles which you can find here Dopefolio is now being used by thousands of developers globally and it has helped many people in landing jobs & opportunities which makes me happy that my creation is helping other people in building their careers. It has many other features like Dopefolio's repo contains a playground link which people can use to test the template with different theme colours to find their own preferred primary colour for the template. Feel free to check out the Project by visiting the Project Link.",
-    live: "url",
-    git: "url",
-    img_cover: "",
-    img_xl:
-      "https://d33wubrfki0l68.cloudfront.net/19c708670a1f21231c1e2efa6ba38dbf52b15343/3237e/assets/jpeg/dopefolio.jpeg",
-    img_md:
-      "https://d33wubrfki0l68.cloudfront.net/19c708670a1f21231c1e2efa6ba38dbf52b15343/3237e/assets/jpeg/dopefolio.jpeg",
-    tech: ["React", "HTML", "JavaScript", "CSS", "git", "ReactRouter"],
+    live: "https://bigheadshop.netlify.app/",
+    git: "https://github.com/krawczyk071/hat-shop",
+    img_cover: "img/xhats.png",
+    img_xl: "img/mkhats4.png",
+    img_md: "img/mkhats4.png",
+    tech: [
+      "React",
+      "HTML",
+      "JavaScript",
+      "CSS",
+      "git",
+      "ReactRouter",
+      "restAPI",
+      "npm",
+    ],
   },
   {
     id: "movies",
@@ -60,14 +65,21 @@ export const projects = [
     short:
       "Dopefolio is a successful Open-Source project that I created whichhave been featured on some of the biggest tech sites like CSS-Tricks, Hostinger, etc & used by thousands of developers globally",
     long: "Dopefolio is an Open-Source project which is a simple and clean multi-page portfolio website template for developers. I created this project for developers to quickly build a good-looking and fast-performing multi-page portfolio without having to code their portfolio from scratch. Since the launch of this project, It has received more than 2k stars on Github and it has also got featured on hundreds of sites and CSS-tricks.com has also featured this template as the hottest frontend tool of 2021 in one of their articles which you can find here Dopefolio is now being used by thousands of developers globally and it has helped many people in landing jobs & opportunities which makes me happy that my creation is helping other people in building their careers. It has many other features like Dopefolio's repo contains a playground link which people can use to test the template with different theme colours to find their own preferred primary colour for the template. Feel free to check out the Project by visiting the Project Link.",
-    live: "url",
-    git: "url",
-    img_cover: "",
-    img_xl:
-      "https://d33wubrfki0l68.cloudfront.net/19c708670a1f21231c1e2efa6ba38dbf52b15343/3237e/assets/jpeg/dopefolio.jpeg",
-    img_md:
-      "https://d33wubrfki0l68.cloudfront.net/19c708670a1f21231c1e2efa6ba38dbf52b15343/3237e/assets/jpeg/dopefolio.jpeg",
-    tech: ["React", "HTML", "JavaScript", "CSS", "git"],
+    live: "https://showselector.netlify.app/",
+    git: "https://github.com/krawczyk071/show-selector",
+    img_cover: "img/xmovies.png",
+    img_xl: "img/mkmovies4.png",
+    img_md: "img/mkmovies4.png",
+    tech: [
+      "React",
+      "HTML",
+      "JavaScript",
+      "CSS",
+      "git",
+      "restAPI",
+      "npm",
+      "tailwind",
+    ],
   },
   {
     id: "tattoo",
@@ -75,20 +87,20 @@ export const projects = [
     short:
       "30 Dopefolio is a successful Open-Source project that I created whichhave been featured on some of the biggest tech sites like CSS-Tricks, Hostinger, etc & used by thousands of developers globally",
     long: "170 Dopefolio is an Open-Source project which is a simple and clean multi-page portfolio website template for developers. I created this project for developers to quickly build a good-looking and fast-performing multi-page portfolio without having to code their portfolio from scratch. Since the launch of this project, It has received more than 2k stars on Github and it has also got featured on hundreds of sites and CSS-tricks.com has also featured this template as the hottest frontend tool of 2021 in one of their articles which you can find here Dopefolio is now being used by thousands of developers globally and it has helped many people in landing jobs & opportunities which makes me happy that my creation is helping other people in building their careers. It has many other features like Dopefolio's repo contains a playground link which people can use to test the template with different theme colours to find their own preferred primary colour for the template. Feel free to check out the Project by visiting the Project Link.",
-    live: "url",
-    git: "url",
-    img_cover: "",
-    img_xl:
-      "https://d33wubrfki0l68.cloudfront.net/19c708670a1f21231c1e2efa6ba38dbf52b15343/3237e/assets/jpeg/dopefolio.jpeg",
-    img_md:
-      "https://d33wubrfki0l68.cloudfront.net/19c708670a1f21231c1e2efa6ba38dbf52b15343/3237e/assets/jpeg/dopefolio.jpeg",
+    live: "https://tattoofinder.netlify.app/",
+    git: "https://github.com/krawczyk071/tattoo-finder",
+    img_cover: "img/xtattoos.png",
+    img_xl: "img/mktattoos4.png",
+    img_md: "img/mktattoos4.png",
     tech: [
+      "Redux",
+      "Firebase",
+      "Cloudinary",
       "React",
       "HTML",
       "JavaScript",
       "CSS",
       "git",
-      "Redux",
       "styledComponents",
     ],
   },
@@ -100,12 +112,10 @@ export const projects = [
     long: "170 Dopefolio is an Open-Source project which is a simple and clean multi-page portfolio website template for developers. I created this project for developers to quickly build a good-looking and fast-performing multi-page portfolio without having to code their portfolio from scratch. Since the launch of this project, It has received more than 2k stars on Github and it has also got featured on hundreds of sites and CSS-tricks.com has also featured this template as the hottest frontend tool of 2021 in one of their articles which you can find here Dopefolio is now being used by thousands of developers globally and it has helped many people in landing jobs & opportunities which makes me happy that my creation is helping other people in building their careers. It has many other features like Dopefolio's repo contains a playground link which people can use to test the template with different theme colours to find their own preferred primary colour for the template. Feel free to check out the Project by visiting the Project Link.",
     live: "url",
     git: "url",
-    img_cover: "",
-    img_xl:
-      "https://d33wubrfki0l68.cloudfront.net/19c708670a1f21231c1e2efa6ba38dbf52b15343/3237e/assets/jpeg/dopefolio.jpeg",
-    img_md:
-      "https://d33wubrfki0l68.cloudfront.net/19c708670a1f21231c1e2efa6ba38dbf52b15343/3237e/assets/jpeg/dopefolio.jpeg",
-    tech: ["mongoDB", "express", "React", "nodeJS", "Docker", "AWS"],
+    img_cover: "img/xmern.png",
+    img_xl: "img/mkmern4.png",
+    img_md: "img/mkmern4.png",
+    tech: ["mongoDB", "express", "React", "nodeJS", "GraphQl", "Docker", "AWS"],
   },
 ];
 
@@ -114,6 +124,10 @@ export const icons = [
     name: "Python",
     icon: <i class="fa-brands fa-python"></i>,
     isvg: "./techsvg/xpython.svg",
+  },
+  {
+    name: "Cloudinary",
+    isvg: "./techsvg/icloudinary.svg",
   },
   {
     name: "nodeJS",
