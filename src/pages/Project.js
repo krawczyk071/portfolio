@@ -16,7 +16,9 @@ const Project = () => {
       <h1>Tools Used</h1>
       <div>
         {project.tech.map((t) => (
-          <span className="badge">{t}</span>
+          <span className="badge" key={t}>
+            {t}
+          </span>
         ))}
       </div>
       <h1>See Live</h1>

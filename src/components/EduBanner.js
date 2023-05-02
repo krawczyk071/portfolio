@@ -4,7 +4,7 @@ const EduBanner = ({ logos }) => {
   return (
     <div className="edus">
       {logos.map((l) => (
-        <EduCard item={l} />
+        <EduCard item={l} key={l.name} />
       ))}
     </div>
   );

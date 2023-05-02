@@ -21,7 +21,7 @@ const LogoBanner = ({ logos }) => {
       {/* <Carousel {...settings}>{logos.map((l) => l.icon)}</Carousel> */}
       <Carousel {...settings}>
         {logos.map((l) => (
-          <IconSvg url={l.isvg} alt={l.name} cls="svgiconLg" />
+          <IconSvg url={l.isvg} alt={l.name} cls="svgiconLg" key={l.name} />
         ))}
       </Carousel>
     </div>

@@ -5,7 +5,7 @@ import { projects } from "../utils/data";
 const Projects = () => {
   return (
     <>
-      <div class="divider"></div>
+      <div className="divider"></div>
       <div id="projects" className="projects main">
         <h1>projects</h1>
         <p className="quote">
@@ -13,7 +13,7 @@ const Projects = () => {
           created with each project containing its own case study
         </p>
         {projects.map((project) => (
-          <CardProject project={project} />
+          <CardProject project={project} key={project.id} />
         ))}
       </div>
     </>

@@ -18,6 +18,7 @@ const CardProject = ({ project }) => {
                 url={icons.find((i) => i.name === t).isvg}
                 alt={t}
                 cls="svgiconSm"
+                key={t}
               />
             )
 

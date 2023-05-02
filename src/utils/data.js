@@ -122,7 +122,7 @@ export const projects = [
 export const icons = [
   {
     name: "Python",
-    icon: <i class="fa-brands fa-python"></i>,
+    icon: <i className="fa-brands fa-python"></i>,
     isvg: "./techsvg/xpython.svg",
   },
   {
@@ -131,17 +131,17 @@ export const icons = [
   },
   {
     name: "nodeJS",
-    icon: <i class="fa-brands fa-node-js"></i>,
+    icon: <i className="fa-brands fa-node-js"></i>,
     isvg: "./techsvg/xnodejs.svg",
   },
   {
     name: "Docker",
-    icon: <i class="fa-brands fa-docker"></i>,
+    icon: <i className="fa-brands fa-docker"></i>,
     isvg: "./techsvg/xdocker.svg",
   },
   {
     name: "AWS",
-    icon: <i class="fa-brands fa-aws"></i>,
+    icon: <i className="fa-brands fa-aws"></i>,
     isvg: "./techsvg/xaws.svg",
   },
   {
@@ -191,12 +191,12 @@ export const icons = [
   },
   {
     name: "git",
-    icon: <i class="fa-brands fa-git-alt"></i>,
+    icon: <i className="fa-brands fa-git-alt"></i>,
     isvg: "./techsvg/xgit.svg",
   },
   {
     name: "JavaScript",
-    icon: <i class="fa-brands fa-js"></i>,
+    icon: <i className="fa-brands fa-js"></i>,
     isvg: "./techsvg/xjs.svg",
   },
   {
@@ -267,22 +267,22 @@ export const icons = [
   },
   {
     name: "CSS",
-    icon: <i class="fa-brands fa-css3-alt"></i>,
+    icon: <i className="fa-brands fa-css3-alt"></i>,
     isvg: "./techsvg/xcss.svg",
   },
   {
     name: "React",
-    icon: <i class="fa-brands fa-react"></i>,
+    icon: <i className="fa-brands fa-react"></i>,
     isvg: "./techsvg/xreact.svg",
   },
   {
     name: "SASS",
-    icon: <i class="fa-brands fa-sass"></i>,
+    icon: <i className="fa-brands fa-sass"></i>,
     isvg: "./techsvg/xsass.svg",
   },
   {
     name: "npm",
-    icon: <i class="fa-brands fa-npm"></i>,
+    icon: <i className="fa-brands fa-npm"></i>,
     isvg: "./techsvg/xnpm.svg",
   },
   {
@@ -437,19 +437,17 @@ export const content = { about: {} };
 // netlify
 // firebase
 
-{
-  /* 
+/* 
   
-<i class="fa-brands fa-js"></i>
-<i class="fa-brands fa-git-alt"></i> 
+<i  className="fa-brands fa-js"></i>
+<i  className="fa-brands fa-git-alt"></i> 
 
-<i class="fa-brands fa-figma"></i>
-<i class="fa-brands fa-stripe"></i>
-<i class="fa-brands fa-python"></i>
-<i class="fa-brands fa-node"></i>
-<i class="fa-brands fa-node-js"></i>
-<i class="fa-brands fa-bootstrap"></i>
+<i  className="fa-brands fa-figma"></i>
+<i  className="fa-brands fa-stripe"></i>
+<i  className="fa-brands fa-python"></i>
+<i  className="fa-brands fa-node"></i>
+<i  className="fa-brands fa-node-js"></i>
+<i  className="fa-brands fa-bootstrap"></i>
 
-<i class="fa-brands fa-docker"></i>
-<i class="fa-brands fa-aws"></i> */
-}
+<i  className="fa-brands fa-docker"></i>
+<i  className="fa-brands fa-aws"></i> */

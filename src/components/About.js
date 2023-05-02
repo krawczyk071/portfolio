@@ -25,7 +25,9 @@ const About = () => {
 
         <div className="about__skills">
           {allSkills.map((s) => (
-            <span className="badge">{s}</span>
+            <span className="badge" key={s}>
+              {s}
+            </span>
           ))}
         </div>
 
