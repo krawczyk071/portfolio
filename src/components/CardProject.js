@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { Link } from "react-router-dom";
-import { icons, textEn, textPl } from "../utils/data";
+import { icons } from "../utils/data";
 import IconSvg from "./IconSvg";
 import { LangContext } from "./context/lang";
 
