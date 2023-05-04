@@ -34,7 +34,7 @@ const About = () => {
         </div>
 
         <h2>{data.aboutHi}</h2>
-        <p>{data.aboutText}</p>
+        <p dangerouslySetInnerHTML={{ __html: data.aboutText }}></p>
         <HashLink smooth to="#contact" className="link about__link">
           <div className="link__btn">{data.aboutBtn}</div>
         </HashLink>

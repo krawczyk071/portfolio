@@ -13,7 +13,10 @@ const Projects = () => {
       <div className="divider"></div>
       <div id="projects" className="projects main">
         <h1>{data.projects}</h1>
-        <p className="quote">{data.projectsLine}</p>
+        <p
+          className="quote"
+          dangerouslySetInnerHTML={{ __html: data.projectsLine }}
+        ></p>
         {projects.map((project) => (
           <CardProject project={project} key={project.id} />
         ))}
