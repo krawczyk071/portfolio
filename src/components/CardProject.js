@@ -1,9 +1,13 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
-import { icons } from "../utils/data";
+import { icons, textEn, textPl } from "../utils/data";
 import IconSvg from "./IconSvg";
+import { LangContext } from "./context/lang";
 
 const CardProject = ({ project }) => {
+  const [lang] = useContext(LangContext);
+  const data = lang ? textEn : textPl;
+
   return (
     <div className="cardproject" id={project.id}>
       <div className="cardproject__img">

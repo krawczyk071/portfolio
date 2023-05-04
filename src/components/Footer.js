@@ -1,16 +1,17 @@
-import React from "react";
+import React, { useContext } from "react";
+import { LangContext } from "./context/lang";
+import { textEn, textPl } from "../utils/data";
 
 const Footer = () => {
+  const [lang] = useContext(LangContext);
+  const data = lang ? textEn : textPl;
+
   return (
     <div className="footer">
       <div className="footer__main main">
         <div className="footer__main__left">
-          <h2>Szymon Krawczyk</h2>
-          <p>
-            A Frontend focused Web Developer building the Frontend of Websites
-            and Web Applications that leads to the success of the overall
-            product
-          </p>
+          <h2>{data.foot}</h2>
+          <p>{data.footText}</p>
         </div>
         <div className="footer__main__socials">
           <a

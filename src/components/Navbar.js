@@ -1,8 +1,13 @@
-import React from "react";
+import React, { useContext } from "react";
 import { NavHashLink } from "react-router-hash-link";
 import Toggler from "./Toggler";
+import { LangContext } from "./context/lang";
+import { textEn, textPl } from "../utils/data";
 
 const Navbar = () => {
+  const [lang] = useContext(LangContext);
+  const data = lang ? textEn : textPl;
+
   return (
     <div className="header">
       <nav className="navbar">
@@ -14,23 +19,23 @@ const Navbar = () => {
         <ul className="navbar__list">
           <li className="navbar__item">
             <NavHashLink smooth to="/">
-              Home
+              {data.nav1}
             </NavHashLink>
           </li>
           <li className="navbar__item">
             <NavHashLink smooth to="/#about">
-              About
+              {data.nav2}
             </NavHashLink>
           </li>
 
           <li className="navbar__item">
             <NavHashLink smooth to="/#projects">
-              Projects
+              {data.nav3}
             </NavHashLink>
           </li>
           <li className="navbar__item">
             <NavHashLink smooth to="/#contact">
-              Contact
+              {data.nav4}
             </NavHashLink>
           </li>
         </ul>

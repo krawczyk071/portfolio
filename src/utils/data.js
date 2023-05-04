@@ -1,30 +1,5 @@
 export const projects = [
   {
-    id: "dope",
-    title: "Dopefolio",
-    short:
-      "Dopefolio is a successful Open-Source project that I created whichhave been featured on some of the biggest tech sites like CSS-Tricks, Hostinger, etc & used by thousands of developers globally",
-    long: "Dopefolio is an Open-Source project which is a simple and clean multi-page portfolio website template for developers. I created this project for developers to quickly build a good-looking and fast-performing multi-page portfolio without having to code their portfolio from scratch. Since the launch of this project, It has received more than 2k stars on Github and it has also got featured on hundreds of sites and CSS-tricks.com has also featured this template as the hottest frontend tool of 2021 in one of their articles which you can find here Dopefolio is now being used by thousands of developers globally and it has helped many people in landing jobs & opportunities which makes me happy that my creation is helping other people in building their careers. It has many other features like Dopefolio's repo contains a playground link which people can use to test the template with different theme colours to find their own preferred primary colour for the template. Feel free to check out the Project by visiting the Project Link.",
-    live: "url",
-    git: "url",
-    img_cover: "",
-    img_xl:
-      "https://d33wubrfki0l68.cloudfront.net/19c708670a1f21231c1e2efa6ba38dbf52b15343/3237e/assets/jpeg/dopefolio.jpeg",
-    img_md:
-      "https://d33wubrfki0l68.cloudfront.net/19c708670a1f21231c1e2efa6ba38dbf52b15343/3237e/assets/jpeg/dopefolio.jpeg",
-    tech: [
-      "React",
-      "git",
-      "github",
-      "SASS",
-      "npm",
-      "tailwind",
-      "netlify",
-      "Firebase",
-      "restAPI",
-    ],
-  },
-  {
     id: "rental",
     title: "BikeRental",
     short:
@@ -35,7 +10,7 @@ export const projects = [
     img_cover: "img/xbikes.png",
     img_xl: "img/mkbikes4.png",
     img_md: "img/mkbikes4.png",
-    tech: ["React", "HTML", "JavaScript", "CSS", "git"],
+    tech: ["Firebase", "React", "HTML", "JavaScript", "CSS", "git"],
   },
   {
     id: "shop",
@@ -49,13 +24,14 @@ export const projects = [
     img_xl: "img/mkhats4.png",
     img_md: "img/mkhats4.png",
     tech: [
+      "restAPI",
+      "ReactRouter",
+      "SASS",
       "React",
       "HTML",
       "JavaScript",
       "CSS",
       "git",
-      "ReactRouter",
-      "restAPI",
       "npm",
     ],
   },
@@ -71,14 +47,14 @@ export const projects = [
     img_xl: "img/mkmovies4.png",
     img_md: "img/mkmovies4.png",
     tech: [
+      "restAPI",
+      "tailwind",
       "React",
+      "npm",
       "HTML",
       "JavaScript",
       "CSS",
       "git",
-      "restAPI",
-      "npm",
-      "tailwind",
     ],
   },
   {
@@ -96,12 +72,12 @@ export const projects = [
       "Redux",
       "Firebase",
       "Cloudinary",
+      "styledComponents",
       "React",
       "HTML",
       "JavaScript",
       "CSS",
       "git",
-      "styledComponents",
     ],
   },
   {
@@ -451,3 +427,73 @@ export const content = { about: {} };
 
 <i  className="fa-brands fa-docker"></i>
 <i  className="fa-brands fa-aws"></i> */
+export const textEn = {
+  nav1: "Home",
+  nav2: "About",
+  nav3: "Projects",
+  nav4: "Contact",
+  hero: "Discover my Work",
+  about: "ABOUT ME",
+  aboutLine:
+    "Here you will find more information about me, what I do, and a few technologies I've been working with recently",
+  aboutSkills: "My Skills",
+  aboutHi: "Get to know me!",
+  aboutText:
+    "Hello! My name is Szymon and I enjoy creating web applications that are both functional and visually attractive. I am committed to continuously learning, exploring new technologies and expanding my skill set. Check out some of my work in the Projects section to discover the skills, tools and technologies I use. Feel free to visit my GitHub and LinkedIn profiles to learn more about my job experience. If you have a good opportunity that matches my potential then don't hesitate to contact me.",
+  aboutBtn: "Contact",
+  aboutTrainings: "Completed Trainings",
+  projects: "PROJECTS",
+  projectsLine:
+    "Here you will find some of the projects that I created to showcase my skills. Each project containing its own case study",
+  projectsWip: "IN DEVELOPMENT",
+  contact: "CONTACT",
+  contactLine:
+    "Feel free to Contact me by submitting the form below and I will get back to you as soon as possible.",
+  formA1: "Name",
+  formA2: "Please enter your Name",
+  formB1: "Email",
+  formB2: "Please enter your Email",
+  formC1: "Message",
+  formC2: "Please enter your Message",
+  err1: "Please provide value for each field",
+  err2: "Email sent. Thank you.",
+  formBtn: "Send",
+  foot: "Szymon Krawczyk",
+  footText:
+    "Developing interactive, user-friendly, and feature rich websites and applications.",
+};
+export const textPl = {
+  nav1: "Home",
+  nav2: "O mnie",
+  nav3: "Projekty",
+  nav4: "Kontakt",
+  hero: "Poznaj moje aplikacje",
+  about: "ABOUT ME",
+  aboutLine:
+    "Here you will find more information about me, what I do, and a few technologies I've been working with recently",
+  aboutSkills: "My Skills",
+  aboutHi: "Get to know me!",
+  aboutText:
+    "Hello! My name is Szymon and I enjoy creating web applications that are both functional and visually attractive. I am committed to continuously learning, exploring new technologies and expanding my skill set. Check out some of my work in the Projects section to discover the skills, tools and technologies I use. Feel free to visit my GitHub and LinkedIn profiles to learn more about my job experience. If you have a good opportunity that matches my potential then don't hesitate to contact me.",
+  aboutBtn: "Contact",
+  aboutTrainings: "Completed Trainings",
+  projects: "PROJECTS",
+  projectsLine:
+    "Here you will find some of the projects that I created to showcase my skills. Each project containing its own case study",
+  projectsWip: "IN DEVELOPMENT",
+  contact: "CONTACT",
+  contactLine:
+    "Feel free to Contact me by submitting the form below and I will get back to you as soon as possible.",
+  formA1: "Name",
+  formA2: "Please enter your Name",
+  formB1: "Email",
+  formB2: "Please enter your Email",
+  formC1: "Message",
+  formC2: "Please enter your Message",
+  formBtn: "Send",
+  err1: "Please provide value for each field",
+  err2: "Email sent. Thank you.",
+  foot: "Szymon Krawczyk",
+  footText:
+    "Developing interactive, user-friendly, and feature rich websites and applications.",
+};
