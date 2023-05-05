@@ -26,7 +26,7 @@
     position: absolute;
     left: 50%;
     bottom: 19px;
-    width: 450px;
+    width: 98%;
     height: 13px;
     transform: skew(-20deg) translateX(-50%);
     background: $accent;
@@ -69,7 +69,11 @@
 
 @media screen and (max-width: $break-sm) {
   .navbar__logo {
-    background: red;
+    font-size: 2.6rem;
+    padding: 1rem 0;
+  }
+  .navbar__item {
+    flex: 1;
   }
 }
 
@@ -102,11 +106,7 @@
   border-radius: 20px;
   transform: scale(0.7);
   background-color: white;
-  /* border: 2px solid black; */
   transition: all 0.2s ease-in-out;
-  /* box-shadow: 0 0.1em rgba(0, 0, 0, 0.5); */
-  /* z-index: 3; */
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -118,28 +118,44 @@
 .footer {
   background: $bg-dark;
   color: $text2;
+  &__main {
+    margin: 0 auto;
+    padding: 1rem 1rem;
+    max-width: $width-lg;
+    display: flex;
+    justify-content: space-between;
+    &__left {
+      flex: 1 1 40%;
+    }
+    &__socials {
+      flex: 1 1 60%;
+      display: flex;
+      justify-content: flex-end;
+      gap: 1rem;
+      font-size: 2rem;
+
+      a,
+      a:hover,
+      a:visited,
+      a:active {
+        color: $text2;
+      }
+    }
+  }
+  &__last {
+    text-align: center;
+    font-weight: 200;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+  }
 }
-.footer__main {
-  display: flex;
-  justify-content: space-between;
-}
-.footer__main__left {
-  width: 40%;
-}
-.footer__main__socials {
-  display: flex;
-  gap: 1rem;
-  font-size: 2rem;
-}
-.footer__last {
-  text-align: center;
-  font-weight: 200;
-  padding: 0.5rem;
-  font-size: 0.8rem;
-}
-.footer__main__socials a,
-.footer__main__socials a:hover,
-.footer__main__socials a:visited,
-.footer__main__socials a:active {
-  color: $text2;
+@media screen and (max-width: $break-sm) {
+  .footer {
+    &__main {
+      flex-direction: column;
+      &__socials {
+        justify-content: center;
+      }
+    }
+  }
 }

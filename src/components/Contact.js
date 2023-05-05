@@ -44,7 +44,7 @@ const Contact = () => {
       );
   };
   return (
-    <div className="contact main" id="contact">
+    <div className="contact" id="contact">
       <h1>{data.contact}</h1>
       <p className="quote">{data.contactLine}</p>
       <div
@@ -96,11 +96,6 @@ const Contact = () => {
           {data.formBtn}
         </button>
       </form>
-      {/* <form on onSubmit={() => console.log("submited")}>
-        {contact.map((c) => (
-          <input type={c.type} placeholder={c.placeholder} />
-        ))}
-      </form> */}
     </div>
   );
 };

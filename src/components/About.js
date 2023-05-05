@@ -16,7 +16,7 @@ const About = () => {
   // console.log(skil);
   return (
     <>
-      <div id="about" className="about main">
+      <div id="about" className="about">
         <h1>{data.about}</h1>
         <p className="quote">{data.aboutLine}</p>
 

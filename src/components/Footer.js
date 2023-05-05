@@ -8,7 +8,7 @@ const Footer = () => {
 
   return (
     <div className="footer">
-      <div className="footer__main main">
+      <div className="footer__main">
         <div className="footer__main__left">
           <h2>{data.foot}</h2>
           <p>{data.footText}</p>

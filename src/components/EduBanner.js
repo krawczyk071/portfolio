@@ -2,7 +2,7 @@ import React from "react";
 
 const EduBanner = ({ logos }) => {
   return (
-    <div className="edus">
+    <div className="educards">
       {logos.map((l) => (
         <EduCard item={l} key={l.name} />
       ))}

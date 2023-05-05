@@ -8,47 +8,6 @@ img {
   width: 100%;
 }
 
-.projects {
-  display: flex;
-  max-width: $width-lg;
-  flex-direction: column;
-}
-.cardproject {
-  display: flex;
-  margin: 2rem 0;
-}
-.cardproject:nth-of-type(even) .cardproject__img {
-  order: 1;
-}
-
-.cardproject__img {
-  flex: 1 1 50%;
-  padding: 3rem;
-}
-.cardproject__txt {
-  flex: 1 1 50%;
-  padding: 1rem;
-  display: flex;
-  flex-direction: column;
-}
-.cardproject__title {
-  margin-bottom: 0.5rem;
-}
-.cardproject__txt p {
-  margin-bottom: 2rem;
-}
-.cardproject__btns {
-  display: flex;
-  justify-content: space-evenly;
-}
-.cardproject__tech {
-  display: flex;
-  font-size: 2rem;
-  margin-bottom: 1rem;
-}
-.cardproject__tech > * {
-  padding: 0 0.3rem;
-}
 .mybg {
   background-image: radial-gradient(
       circle at 0 0,
@@ -61,8 +20,6 @@ img {
       rgba(121, 223, 255, 0) 70%
     ),
     radial-gradient(circle at 95% 0, #d0f224 0, rgba(95, 213, 182, 0) 20%);
-  /* opacity: 0.4; */
-  /* background-blend-mode: lighten; */
 }
 
 .badge {
@@ -99,6 +56,7 @@ p.quote {
   align-self: center;
   margin-bottom: 2rem;
 }
+
 .link__btn {
   background: #facf0f;
   color: #333;
@@ -120,55 +78,15 @@ p.quote {
 .link {
   align-self: center;
 }
-.about__link {
-  margin: 2rem;
-}
+
 .detail {
   max-width: $width-lg;
+  margin-bottom: 8rem;
 }
 .detail__img {
   padding: 2rem;
 }
-.divider {
-  position: relative;
-  text-align: center;
-}
-.divider:before {
-  content: "";
-  position: absolute;
-  background: $accent;
-  /* border-radius: 25px; */
-  transform: skewY(-2deg);
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: -1;
 
-  height: 150px;
-  width: 100%;
-}
-
-#mern {
-  position: relative;
-}
-#mern * {
-  filter: blur(5px);
-}
-#mern::after {
-  content: "IN DEVELOPMENT";
-  position: absolute;
-  inset: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /* color: #fff; */
-  font-size: 3rem;
-  font-weight: bold;
-}
-.detail {
-  margin-bottom: 8rem;
-}
 .pas {
   background: $primary;
   padding: 4rem;
@@ -188,13 +106,19 @@ p.quote {
   justify-content: space-between;
   padding: 3rem;
 }
-.about {
+
+.contact {
+  margin: 0 auto;
+  padding: 1rem 1rem;
+  max-width: $width-lg;
   display: flex;
   flex-direction: column;
 }
-.contact {
-  display: flex;
-  flex-direction: column;
+.contact_alert__err {
+  color: $danger;
+}
+.contact_alert__suc {
+  color: $success;
 }
 .form {
   display: flex;
@@ -203,99 +127,4 @@ p.quote {
 .form__btn {
   align-self: center;
   margin: 1rem;
-}
-.about__skills {
-  margin-bottom: 2rem;
-}
-.about__skills__logos {
-  /* align-self: stretch; */
-}
-
-.modsvg {
-  width: 150px;
-  /* filter: saturate(0%); */
-  filter: grayscale(100%) brightness(70%);
-  /* filter: invert(100%); */
-  /* filter: blur(3px); */
-}
-.contact_alert__err {
-  color: $danger;
-}
-.contact_alert__suc {
-  color: $success;
-}
-.educard {
-  /* width: 200px; */
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  flex-direction: column;
-  margin: 0 2rem 1rem 2rem;
-}
-.educard__logo {
-  width: 100px;
-  height: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.educard__svg {
-  width: 100%;
-  filter: grayscale(100%) brightness(70%);
-}
-.educard__title {
-  font-size: 1rem;
-  font-weight: bold;
-}
-.educard__text {
-  width: 150px;
-  /* display: block; */
-  font-size: 0.8rem;
-  text-align: center;
-}
-
-.edus {
-  color: $bg-dark;
-  opacity: 0.7;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-}
-.svgicon {
-  width: 40px;
-  filter: grayscale(100%) brightness(30%);
-}
-.svgiconSm {
-  width: 40px;
-  filter: grayscale(100%) brightness(30%);
-}
-.svgwrapper {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.svgiconLg {
-  width: 100px;
-  /* filter: grayscale(100%) brightness(30%); */
-  /* 
-    color: $bg-dark;
-    opacity: 0.7; */
-}
-.logos {
-  width: 100%;
-  font-size: 5rem;
-  color: $bg-dark;
-  opacity: 0.5;
-  margin-bottom: 1rem;
-}
-.slider-list {
-  text-align: center !important;
-  align-items: center;
-  align-content: center;
-}
-
-.main {
-  margin: 0 auto;
-  padding: 1rem 0;
-  max-width: $width-lg;
 }

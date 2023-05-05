@@ -11,7 +11,7 @@ const Projects = () => {
   return (
     <>
       <div className="divider"></div>
-      <div id="projects" className="projects main">
+      <div id="projects" className="projects">
         <h1>{data.projects}</h1>
         <p
           className="quote"

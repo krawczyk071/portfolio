@@ -62,9 +62,14 @@
   font-weight: 400;
   display: block;
   width: 100%;
-  /* background-clip: padding-box; */
   transition: all 0.15s ease-in-out;
 }
+textarea::placeholder {
+  font-family: Arial, sans-serif;
+  font-size: var(--form-font-size);
+  font-weight: 400;
+}
+
 .ipt-forbtn {
   border-radius: $radius1 0 0 $radius1;
 }
@@ -81,7 +86,7 @@
   font-size: 20px;
 }
 .ipt-btn:hover {
-  /* border: 1px solid $form-bg); /
+  /* border: 1px solid $form-bg); */
   background: $form-bg;
 }
 
@@ -133,9 +138,6 @@ select option {
   background: $option-bg;
   color: $form-font-color;
 }
-/* option:not(:checked) {
-  background-color: #57c425;
-} */
 
 select:focus + .focus {
   position: absolute;
@@ -149,5 +151,4 @@ select:focus + .focus {
 .select--disabled {
   cursor: not-allowed;
   background-color: $form-color2;
-  /* background-image: linear-gradient(to top, #ddd, #eee 33%); */
 }
