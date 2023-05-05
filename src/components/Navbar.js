@@ -38,10 +38,8 @@ const Navbar = () => {
               {data.nav4}
             </NavHashLink>
           </li>
-        </ul>
-        <div className="navbar__lang">
           <Toggler />
-        </div>
+        </ul>
       </nav>
     </div>
   );

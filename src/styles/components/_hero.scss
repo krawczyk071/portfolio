@@ -1,0 +1,59 @@
+.hero2 {
+  text-align: center;
+}
+
+.hero {
+  margin: 0 auto;
+  max-width: $width-lg;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.hero h1 {
+  margin: 2rem;
+  margin-bottom: 4rem;
+}
+.hero__cnt {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.hero__cnt__img {
+  width: 220px;
+  border-radius: $radius1;
+  overflow: hidden;
+}
+.hero__cnt__img {
+  transition: all 0.2s ease-in-out;
+}
+.hero__cnt__img:hover {
+  translate: 0 -10px;
+}
+
+.card1 {
+  transform: rotateZ(-5deg) scale(0.9) translateX(40px) translateY(20px);
+  z-index: 1;
+}
+.card2 {
+  transform: rotateZ(-2deg);
+  z-index: 2;
+}
+.card3 {
+  transform: scale(1.2) translateY(-20px);
+  /* transform: perspective(800px) rotateX(-10deg) scale(1.2) translateY(-10px); */
+  z-index: 3;
+}
+
+.card4 {
+  transform: rotateZ(2deg);
+  z-index: 2;
+}
+.card5 {
+  transform: rotateZ(5deg) scale(0.9) translateX(-40px) translateY(20px);
+  z-index: 1;
+  background: $bg-secondary;
+  filter: blur(3px);
+}

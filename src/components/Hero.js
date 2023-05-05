@@ -10,7 +10,7 @@ const Hero = () => {
 
   return (
     <div className="mybg">
-      <div className="hero main">
+      <div className="hero">
         <h1>{data.hero}</h1>
         <div className="hero__cnt">
           <HashLink smooth to="#rental" className="hero__cnt__img card1">

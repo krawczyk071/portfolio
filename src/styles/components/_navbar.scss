@@ -1,0 +1,145 @@
+.header {
+  background: $bg-light;
+}
+.navbar {
+  margin: 0 auto;
+  max-width: 910px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.navbar__logo {
+  flex: 1;
+  margin-top: -0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", cursive;
+  font-size: 3rem;
+  font-weight: bold;
+  position: relative;
+  isolation: isolate;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 19px;
+    width: 450px;
+    height: 13px;
+    transform: skew(-20deg) translateX(-50%);
+    background: $accent;
+    z-index: -1;
+  }
+  span {
+    font-family: "Montserrat", cursive;
+    font-size: 0.6rem;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    margin-top: -10px;
+    margin-left: 2rem;
+    letter-spacing: 1.4rem;
+  }
+}
+
+.navbar__list {
+  flex: 1;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.navbar__item {
+  flex: 1 0 80px;
+  display: inline;
+  text-align: center;
+  margin: 0.1rem;
+  a {
+    color: $text1;
+    text-decoration: none;
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+@media screen and (max-width: $break-sm) {
+  .navbar__logo {
+    background: red;
+  }
+}
+
+.togg {
+  transform: scale(0.8);
+}
+
+.togg1 {
+  width: 80px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: $accent;
+  outline: 0;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  position: relative;
+}
+
+.togg1.active {
+  background-color: $text1;
+}
+.togg2.active {
+  left: 40px;
+}
+.togg2 {
+  position: absolute;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  transform: scale(0.7);
+  background-color: white;
+  /* border: 2px solid black; */
+  transition: all 0.2s ease-in-out;
+  /* box-shadow: 0 0.1em rgba(0, 0, 0, 0.5); */
+  /* z-index: 3; */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  font-weight: bold;
+  padding: 0;
+}
+
+.footer {
+  background: $bg-dark;
+  color: $text2;
+}
+.footer__main {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__main__left {
+  width: 40%;
+}
+.footer__main__socials {
+  display: flex;
+  gap: 1rem;
+  font-size: 2rem;
+}
+.footer__last {
+  text-align: center;
+  font-weight: 200;
+  padding: 0.5rem;
+  font-size: 0.8rem;
+}
+.footer__main__socials a,
+.footer__main__socials a:hover,
+.footer__main__socials a:visited,
+.footer__main__socials a:active {
+  color: $text2;
+}
