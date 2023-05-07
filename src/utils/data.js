@@ -36,7 +36,7 @@ export const projects = [
       "Strona prezentuje najnowsze hity filmowe. Dane pochodzą z zewnętrznego <b>API</b>. Do stylizacji użyto <b>Tailwind</b>. Rozszerzenie funkcjonalności dzięki dodatkowym bibliotekom <b>NPM</b>. Użytkownicy mogą tworzyć własną listę do obejrzenia i oglądać trailery filmów.",
     live: "https://showselector.netlify.app/",
     git: "https://github.com/krawczyk071/show-selector",
-    img_cover: "img/xmovies.png",
+    img_cover: "img/xmovies2.png",
     img_xl: "img/mkmovies4.png",
     img_md: "img/mkmovies4.png",
     tech: ["restAPI", "tailwind", "React", "npm", "JavaScript"],

@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { NavHashLink } from "react-router-hash-link";
+import { HashLink } from "react-router-hash-link";
 import Toggler from "./Toggler";
 import { LangContext } from "./context/lang";
 import { textEn, textPl } from "../utils/data";
@@ -18,25 +18,25 @@ const Navbar = () => {
 
         <ul className="navbar__list">
           <li className="navbar__item">
-            <NavHashLink smooth to="/">
+            <HashLink smooth to="/">
               {data.nav1}
-            </NavHashLink>
+            </HashLink>
           </li>
           <li className="navbar__item">
-            <NavHashLink smooth to="/#about">
+            <HashLink smooth to="/#about">
               {data.nav2}
-            </NavHashLink>
+            </HashLink>
           </li>
 
           <li className="navbar__item">
-            <NavHashLink smooth to="/#projects">
+            <HashLink smooth to="/#projects">
               {data.nav3}
-            </NavHashLink>
+            </HashLink>
           </li>
           <li className="navbar__item">
-            <NavHashLink smooth to="/#contact">
+            <HashLink smooth to="/#contact">
               {data.nav4}
-            </NavHashLink>
+            </HashLink>
           </li>
           <Toggler />
         </ul>

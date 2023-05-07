@@ -530,7 +530,7 @@ p.quote {
   flex: 1 0 80px;
   display: inline;
   text-align: center;
-  margin: 0.1rem;
+  margin: 0.3rem;
 }
 .navbar__item a {
   color: #301f40;
@@ -540,10 +540,14 @@ p.quote {
   text-decoration: underline;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 860px) {
   .navbar__logo {
     font-size: 2.6rem;
     padding: 1rem 0;
+  }
+  .navbar__logo::before {
+    bottom: 32px;
+    transform: skew(-20deg) translateX(-50%);
   }
   .navbar__item {
     flex: 1;
