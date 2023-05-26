@@ -17,15 +17,15 @@ export const projects = [
     id: "shop",
     title: "BigHead",
     short:
-      "e-commerce site selling NewEra baseball caps based on <b>API</b> from rapidApi. CSS styling managed with <b>SASS</b>. Site features filters, pagination, product detail page and shoping cart built with React <b>Router</b> and <b>Context</b>.",
+      "e-commerce site selling NewEra baseball caps based on <b>API</b> from rapidApi. Built with <b>TypeScript</b>, CSS styling managed with <b>SASS</b>. Site features filters, pagination, product detail page and shoping cart built with React <b>Router</b> and <b>Context</b>.",
     shortpl:
-      "Strona e-commerce sprzedająca czapeczki bejsbolowe oparta na <b>API</b> z rapidApi. CSS przy użyciu <b>SASS</b>. Dzięki React <b>Router</b> i przechowywaniu stanu w <b>Context</b> możliwe filtry, paginacja, strona szczegółowa a także koszyk zakupów.",
+      "Strona e-commerce sprzedająca czapeczki bejsbolowe oparta na <b>API</b> z rapidApi. Napisano w <b>TypeScript</b>, CSS przy użyciu <b>SASS</b>. Dzięki React <b>Router</b> i przechowywaniu stanu w <b>Context</b> możliwe filtry, paginacja, strona szczegółowa a także koszyk zakupów.",
     live: "https://bigheadshop.netlify.app/",
     git: "https://github.com/krawczyk071/hat-shop",
     img_cover: "img/xhats.png",
     img_xl: "img/mkhats4.png",
     img_md: "img/mkhats4.png",
-    tech: ["restAPI", "ReactRouter", "SASS", "React", "npm"],
+    tech: ["TypeScript", "restAPI", "ReactRouter", "SASS", "React"],
   },
   {
     id: "movies",
@@ -67,7 +67,7 @@ export const projects = [
     img_cover: "img/xmern.png",
     img_xl: "img/mkmern4.png",
     img_md: "img/mkmern4.png",
-    tech: ["mongoDB", "express", "React", "nodeJS", "GraphQl", "Docker", "AWS"],
+    tech: ["mongoDB", "express", "React", "nodeJS", "Docker"],
   },
 ];
 
@@ -357,10 +357,15 @@ export const skills = [
   "HTML",
   "github",
   "Redux",
+  "TypeScript",
+  "mongoDB",
+  "NextJS",
   "Firebase",
   "ReactRouter",
 ];
 export const skillsSM = [
+  "nodeJS",
+  "express",
   "npm",
   "SASS",
   "tailwind",
