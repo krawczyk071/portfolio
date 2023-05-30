@@ -1,5 +1,33 @@
 export const projects = [
   {
+    id: "watch",
+    title: "WatchTime",
+    short:
+      "Web store selling Timex watches, managed by <b>Sanity CRM</b>. Built with <b>NextJS</b>, CSS styling managed with <b>SASS</b>, state passed with <b>Context</b> API. Site features pagination, product detail page and shopping cart , accepts credit card <b>payments</b> thanks to <b>Stipe API</b>.",
+    shortpl:
+      "Sklep internetowy sprzedający zegarki Timex, zarządzana przez <b>Sanity CRM</b>. Zbudowana przy użyciu <b>NextJS</b>, style przy użyciu <b>SASS</b>. Strona zawiera paginacje, stronę szczegółową produktu. Koszyk zakupów z możliwością <b>płatności</b> dzięki <b>Stipe API</b>.",
+    live: "https://watch-time-sigma.vercel.app/",
+    git: "https://github.com/krawczyk071/watch-time",
+    img_cover: "img/xwatch.png",
+    img_xl: "img/mkwatch4.png",
+    img_md: "img/mkwatch4.png",
+    tech: ["NextJS", "Redux", "React", "JavaScript", "SASS"],
+  },
+  {
+    id: "food",
+    title: "FitFood",
+    short:
+      "Recipe portal, allowing to upload your own recipes or discover added by others. Authenticated users (<b>JWT</b> tokens) can track daily calorie intake. Full stack MERN project, leveraging <b>MongoDB</b>, <b>Express</b>, <b>React</b>, and <b>Node.js</b>. State managed with <b>Redux</b> toolkit, CSS with <b>SASS</b>.",
+    shortpl:
+      "Portal z przepisami, pozwala na dodawanie własnych przepisów lub przeglądanie wgranych przez innych. Zalogowany użytkownik (<b>JWT</b> token) może śledzić dzienne spożycie kalorii. Projekt full stack MERN , kożystający z <b>MongoDB</b>, <b>Express</b>, <b>React</b>, oraz <b>Node.js</b>. Stan obsługiwany przez <b>Redux</b> toolkit, CSS przy użyciu <b>SASS</b>.",
+    live: "https://fitfoodproject.netlify.app/",
+    git: "https://github.com/krawczyk071/fitfood",
+    img_cover: "img/xfood1.png",
+    img_xl: "img/mkfood4.png",
+    img_md: "img/mkfood4.png",
+    tech: ["mongoDB", "React", "express", "nodeJS", "SASS"],
+  },
+  {
     id: "rental",
     title: "BikeRental",
     short:
@@ -350,16 +378,16 @@ export const techLogosALL = [
   "nodeJS",
 ];
 export const skills = [
+  "NextJS",
+  "TypeScript",
   "React",
   "JavaScript",
   "CSS",
+  "Redux",
+  "mongoDB",
   "git",
   "HTML",
   "github",
-  "Redux",
-  "TypeScript",
-  "mongoDB",
-  "NextJS",
   "Firebase",
   "ReactRouter",
 ];
@@ -373,7 +401,6 @@ export const skillsSM = [
   "restAPI",
   "Python",
   "SQL",
-  "nodeJS",
 ];
 
 export const contact = [
@@ -480,3 +507,34 @@ export const textPl = {
   footText:
     "Zajmuję się tworzeniem nowoczesnych aplikacji w oparciu o technologie HTML, CSS i JavaScript.",
 };
+
+export const Nprojects = [
+  {
+    id: "watch",
+    title: "WatchTime",
+    short:
+      "Web store selling Timex watches, managed by <b>Sanity CRM</b>. Built with <b>NextJS</b>, CSS styling managed with <b>SASS</b>, state passed with <b>Context</b> API. Site features pagination, product detail page and shopping cart , accepts credit card <b>payments</b> thanks to <b>Stipe API</b>.",
+    shortpl:
+      "Sklep internetowy sprzedający zegarki Timex, zarządzana przez <b>Sanity CRM</b>. Zbudowana przy użyciu <b>NextJS</b>, style przy użyciu <b>SASS</b>. Strona zawiera paginacje, stronę szczegółową produktu. Koszyk zakupów z możliwością <b>płatności</b> dzięki <b>Stipe API</b>.",
+    live: "https://watch-time-sigma.vercel.app/",
+    git: "https://github.com/krawczyk071/watch-time",
+    img_cover: "img/xwatch.png",
+    img_xl: "img/mkwatch4.png",
+    img_md: "img/mkwatch4.png",
+    tech: ["NextJS", "Redux", "React", "JavaScript", "SASS"],
+  },
+  {
+    id: "food",
+    title: "FitFood",
+    short:
+      "Recipe portal, allowing to upload your own recipes or discover added by others. Authenticated users (<b>JWT</b> tokens) can track daily calorie intake. Full stack MERN project, leveraging <b>MongoDB</b>, <b>Express</b>, <b>React</b>, and <b>Node.js</b>. State managed with <b>Redux</b> toolkit, CSS with <b>SASS</b>.",
+    shortpl:
+      "Portal z przepisami, pozwala na dodawanie własnych przepisów lub przeglądanie wgranych przez innych. Zalogowany użytkownik (<b>JWT</b> token) może śledzić dzienne spożycie kalorii. Projekt full stack MERN , kożystający z <b>MongoDB</b>, <b>Express</b>, <b>React</b>, oraz <b>Node.js</b>. Stan obsługiwany przez <b>Redux</b> toolkit, CSS przy użyciu <b>SASS</b>.",
+    live: "https://fitfoodproject.netlify.app/",
+    git: "https://github.com/krawczyk071/fitfood",
+    img_cover: "img/xfood1.png",
+    img_xl: "img/mkfood4.png",
+    img_md: "img/mkfood4.png",
+    tech: ["mongoDB", "React", "express", "nodeJS", "SASS"],
+  },
+];

@@ -10,6 +10,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
 .hero h1 {
   margin: 2rem;
@@ -17,7 +18,7 @@
 }
 .hero__cnt {
   display: flex;
-  width: 100%;
+  width: 125%;
   justify-content: space-between;
   margin-bottom: 100px;
 }
@@ -28,32 +29,46 @@
 }
 .hero__cnt__img {
   transition: all 0.2s ease-in-out;
+  box-shadow: 0px 22px 50px -28px rgba(66, 68, 90, 1);
 }
 .hero__cnt__img:hover {
   translate: 0 -10px;
 }
 
 .card1 {
-  transform: rotateZ(-5deg) scale(0.9) translateX(40px) translateY(20px);
+  transform: rotateZ(-5deg) scale(0.9) translateX(190px) translateY(20px);
   z-index: 1;
 }
 .card2 {
-  transform: rotateZ(-2deg);
+  transform: rotateZ(-3deg) translateX(100px) translateY(0px);
   z-index: 2;
 }
 .card3 {
-  transform: scale(1.2) translateY(-20px);
-  /* transform: perspective(800px) rotateX(-10deg) scale(1.2) translateY(-10px); */
+  transform: rotateZ(-2deg) translateX(50px) translateY(-15px) scale(1.15);
   z-index: 3;
 }
-
 .card4 {
-  transform: rotateZ(2deg);
-  z-index: 2;
+  transform: scale(1.25) translateY(-20px);
+  /* transform: perspective(800px) rotateX(-10deg) scale(1.2) translateY(-10px); */
+  z-index: 4;
 }
 .card5 {
-  transform: rotateZ(5deg) scale(0.9) translateX(-40px) translateY(20px);
+  transform: rotateZ(2deg) translateX(-50px) translateY(-15px) scale(1.15);
+  z-index: 3;
+}
+.card6 {
+  transform: rotateZ(3deg) translateX(-110px) translateY(0px);
+  z-index: 2;
+}
+.card7 {
+  transform: rotateZ(5deg) scale(0.9) translateX(-190px) translateY(20px);
   z-index: 1;
   background: $bg-secondary;
   filter: blur(3px);
+}
+@media screen and (max-width: $break-sm) {
+  .hero__cnt {
+    width: 150%;
+    margin-bottom: 50px;
+  }
 }

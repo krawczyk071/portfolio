@@ -413,6 +413,7 @@ p.quote {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
 
 .hero h1 {
@@ -422,7 +423,7 @@ p.quote {
 
 .hero__cnt {
   display: flex;
-  width: 100%;
+  width: 125%;
   justify-content: space-between;
   margin-bottom: 100px;
 }
@@ -435,6 +436,7 @@ p.quote {
 
 .hero__cnt__img {
   transition: all 0.2s ease-in-out;
+  box-shadow: 0px 22px 50px -28px rgb(66, 68, 90);
 }
 
 .hero__cnt__img:hover {
@@ -442,33 +444,49 @@ p.quote {
 }
 
 .card1 {
-  transform: rotateZ(-5deg) scale(0.9) translateX(40px) translateY(20px);
+  transform: rotateZ(-5deg) scale(0.9) translateX(190px) translateY(20px);
   z-index: 1;
 }
 
 .card2 {
-  transform: rotateZ(-2deg);
+  transform: rotateZ(-3deg) translateX(100px) translateY(0px);
   z-index: 2;
 }
 
 .card3 {
-  transform: scale(1.2) translateY(-20px);
-  /* transform: perspective(800px) rotateX(-10deg) scale(1.2) translateY(-10px); */
+  transform: rotateZ(-2deg) translateX(50px) translateY(-15px) scale(1.15);
   z-index: 3;
 }
 
 .card4 {
-  transform: rotateZ(2deg);
-  z-index: 2;
+  transform: scale(1.25) translateY(-20px);
+  /* transform: perspective(800px) rotateX(-10deg) scale(1.2) translateY(-10px); */
+  z-index: 4;
 }
 
 .card5 {
-  transform: rotateZ(5deg) scale(0.9) translateX(-40px) translateY(20px);
+  transform: rotateZ(2deg) translateX(-50px) translateY(-15px) scale(1.15);
+  z-index: 3;
+}
+
+.card6 {
+  transform: rotateZ(3deg) translateX(-110px) translateY(0px);
+  z-index: 2;
+}
+
+.card7 {
+  transform: rotateZ(5deg) scale(0.9) translateX(-190px) translateY(20px);
   z-index: 1;
   background: silver;
   filter: blur(3px);
 }
 
+@media screen and (max-width: 576px) {
+  .hero__cnt {
+    width: 150%;
+    margin-bottom: 50px;
+  }
+}
 .header {
   background: #f1fff9;
 }
@@ -488,7 +506,7 @@ p.quote {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-family: "Montserrat", cursive;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
   font-size: 3rem;
   font-weight: bold;
   position: relative;
@@ -506,7 +524,7 @@ p.quote {
   z-index: -1;
 }
 .navbar__logo span {
-  font-family: "Montserrat", cursive;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
   font-size: 0.6rem;
   font-weight: bold;
   display: block;
