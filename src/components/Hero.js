@@ -13,7 +13,7 @@ const Hero = () => {
       <div className="hero">
         <h1>{data.hero}</h1>
         <div className="hero__cnt">
-          <HashLink smooth to="food#" className="hero__cnt__img card1">
+          <HashLink smooth to="#food" className="hero__cnt__img card1">
             <img src={projects[1].img_cover} alt="" />
           </HashLink>
           <HashLink smooth to="#shop" className="hero__cnt__img card2">
