@@ -11,7 +11,7 @@ export const projects = [
     img_cover: "img/xwatch.png",
     img_xl: "img/mkwatch4.png",
     img_md: "img/mkwatch4.png",
-    tech: ["NextJS", "Redux", "React", "JavaScript", "SASS"],
+    tech: ["NextJS", "React", "JavaScript", "SASS", "restAPI"],
   },
   {
     id: "food",
@@ -25,7 +25,7 @@ export const projects = [
     img_cover: "img/xfood1.png",
     img_xl: "img/mkfood4.png",
     img_md: "img/mkfood4.png",
-    tech: ["mongoDB", "React", "express", "nodeJS", "SASS"],
+    tech: ["mongoDB", "React", "express", "nodeJS", "Redux"],
   },
   {
     id: "rental",
